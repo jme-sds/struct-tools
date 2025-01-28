@@ -1,0 +1,17 @@
+Package: mtsdata
+Title: Provides analysis tools for various testing on MTS Load Frames.
+Version: 0.0.0.9000
+Authors@R:
+    person("John", "Epperson", , "john.epperson@vdot.virginia.gov", role = c("aut", "cre"))
+Description: The intent of this package is to create a library of functions for easy analysis of the various standardized ASTM testing that we do here in the Structures' Lab at VTRC.
+License: use_mit_license()
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Depends: 
+    ggplot2,
+    dplyr,
+    kableExtra,
+    purrr,
+    readr,
+    shadowtext
