@@ -1,5 +1,5 @@
-Package: mtsdata
-Title: Provides analysis tools for various testing on MTS Load Frames.
+Package: structtools
+Title: Analytical Tools for Mechanical Testing
 Version: 0.0.0.9000
 Authors@R:
     person("John", "Epperson", , "john.epperson@vdot.virginia.gov", role = c("aut", "cre"))
@@ -14,4 +14,5 @@ Depends:
     kableExtra,
     purrr,
     readr,
-    shadowtext
+    shadowtext,
+    tcltk
