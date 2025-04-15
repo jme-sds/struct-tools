@@ -124,6 +124,7 @@ load_defl_plot <- function(results_df,invert = F) {
 #' @param data the data set, a data frame
 #' @param ref the reference point, a numeric
 #' @param span the amount you want to span in percent.
+#' @export
 span_data <- function(data,ref,span = -1) {
   pct <- (100+span)/100
 
